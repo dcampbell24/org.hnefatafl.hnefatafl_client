@@ -1,11 +1,11 @@
 app-id: org.hnefatafl.hnefatafl_client
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: org.hnefatafl.hnefatafl_client
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
-  - org.freedesktop.Sdk.Extension.llvm18
+  - org.freedesktop.Sdk.Extension.llvm20
 finish-args:
   - --share=ipc
   - --socket=pulseaudio
@@ -22,8 +22,8 @@ modules:
         tag: v5.0.0-4
       - cargo-sources.json
     build-options:
-      append-path: /usr/lib/sdk/llvm18/bin
-      prepend-ld-library-path: /usr/lib/sdk/llvm18/lib
+      append-path: /usr/lib/sdk/llvm20/bin
+      prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
         CARGO_HOME: /run/build/hnefatafl_client/cargo
         CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER: clang
