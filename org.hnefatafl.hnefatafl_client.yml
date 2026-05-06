@@ -19,11 +19,12 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/dcampbell/hnefatafl.git
+        commit: 61604b433bf08859dbc133c5ae3cf9b491a23a07
         tag: v5.10.0-1
       - cargo-sources.json
       - type: file
         url: https://codeberg.org/dcampbell/hnefatafl/raw/branch/main/packages/org.hnefatafl.hnefatafl_client.metainfo.xml
-        sha256: 68df4325d601c9e31518b36a3b988d431502bfe74ab52768be5842b030fc22d9
+        sha256: ecd05dced41aab336749796c53d5bfea9ca99eba6d31f43075e3c55c80321dfc
 
     build-options:
       append-path: /usr/lib/sdk/llvm20/bin
