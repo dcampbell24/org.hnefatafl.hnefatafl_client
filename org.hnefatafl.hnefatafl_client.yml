@@ -1,3 +1,4 @@
+# It failed for no reason.
 app-id: org.hnefatafl.hnefatafl_client
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
