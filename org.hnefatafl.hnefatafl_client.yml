@@ -23,7 +23,7 @@ modules:
         tag: v5.10.0-1
       - cargo-sources.json
       - type: file
-        url: https://codeberg.org/dcampbell/hnefatafl/raw/branch/main/packages/org.hnefatafl.hnefatafl_client.metainfo.xml
+        url: https://codeberg.org/dcampbell/hnefatafl/raw/commit/03e5244ef6a41d07eb2c04f1ade5fddaac959fa8/packages/org.hnefatafl.hnefatafl_client.metainfo.xml
         sha256: ef472f4591af4bdfb61c2809c9562494d07d18db4dcdfadf42d1c7608f8d8ef4
 
     build-options:
